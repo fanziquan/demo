@@ -11,7 +11,7 @@ public class MargeSort {
 
 
     public static void main(String[] args) {
-        int[] array = new int[]{4, 2, 1, 3};
+        int[] array = new int[]{4, 2, 1, 3, 7, 0, 6};
 
         int[] sort = margeSort(array);
         for (int i : sort) {
@@ -39,10 +39,9 @@ public class MargeSort {
                 result[index] = right[j++];
             } else if (j >= right.length) {
                 result[index] = left[i++];
-            }else if (left[i] > right[j]){
+            } else if (left[i] > right[j]) {
                 result[index] = right[j++];
-            }
-            else {
+            } else {
                 result[index] = left[i++];
             }
         }
