@@ -15,7 +15,7 @@ public class MargeSort {
 
         int[] sort = margeSort(array);
         for (int i : sort) {
-            System.out.println(i);
+            System.out.print(i+ "\t");
         }
 
     }
