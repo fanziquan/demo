@@ -5,8 +5,8 @@ package com.daily.practice.algorithm;
  * @version : whirling.java, v 0.1 2020/08/09 16:55 Exp $
  * @description :
  * 将一个矩阵顺时针旋转90°，请写出伪代码；
- * A11，A12，A13，					   A31，A21，A11，    A33 A32 A31     00  -> 22   20 ->02  10 -> 12
- * A21，A22，A23，  ——顺时针旋转90°——》  A32，A22，A12，    A23 A22 A21
+ * A11，A12，A13，                     A31，A21，A11，    A33 A32 A31     00  -> 22   20 ->02  10 -> 12
+ * A21，A22，A23，  ——顺时针旋转90°——>  A32，A22，A12，    A23 A22 A21
  * A31，A32，A33，                     A33，A23，A13，    A13 A12 A11
  */
 public class Whirling {
